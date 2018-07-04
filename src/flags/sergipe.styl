@@ -1,0 +1,53 @@
+// Sergipe - SE
+$azul-escuro = rgba(40, 22, 111, 1)
+$branco = rgba(255,255,255,1)
+$amarelo = rgba(248, 195, 0, 1)
+$verde = rgba(0, 146, 63, 1)
+
+.flag-se
+    padding 40px 0
+    margin-bottom 10px
+
+.flag-se h1
+    text-align center
+
+.flag-se > .flag
+    margin 0 auto
+    background repeating-linear-gradient(to bottom, $verde, $verde 25%, $amarelo 0, $amarelo 50%)
+
+.flag-se .flag:before
+    width 101px
+    height 101px
+    background $azul-escuro
+
+.flag-se .flag:after
+    content '\2605'
+    color #fff
+    font-size 1.8em
+    margin-left 24px
+
+.flag-se .star
+    color $branco
+    font-size 0.75em
+    position absolute
+
+.flag-se .star:last-child
+    margin-top 65px
+
+.flag-se .star:before
+    content '\2605'
+    margin-top -3px
+    margin-left 5px
+
+.flag-se .star:after
+    content '\2605'
+    margin-left 45px
+
+
+.flag-se .star:last-child:before
+    content: '\2605';
+    margin-left: 6px;
+
+.flag-se .star:last-child:after
+    content: '\2605';
+    margin-left: 45px;

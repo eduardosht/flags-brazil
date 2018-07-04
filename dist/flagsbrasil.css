@@ -270,3 +270,50 @@ div > h1 {
   margin-top: 156px;
   background: #e74c3c;
 }
+.flag-se {
+  padding: 40px 0;
+  margin-bottom: 10px;
+}
+.flag-se h1 {
+  text-align: center;
+}
+.flag-se > .flag {
+  margin: 0 auto;
+  background: repeating-linear-gradient(to bottom, #00923f, #00923f 25%, #f8c300 0, #f8c300 50%);
+}
+.flag-se .flag:before {
+  width: 101px;
+  height: 101px;
+  background: #28166f;
+}
+.flag-se .flag:after {
+  content: '\2605';
+  color: #fff;
+  font-size: 1.8em;
+  margin-left: 24px;
+}
+.flag-se .star {
+  color: #fff;
+  font-size: 0.75em;
+  position: absolute;
+}
+.flag-se .star:last-child {
+  margin-top: 65px;
+}
+.flag-se .star:before {
+  content: '\2605';
+  margin-top: -3px;
+  margin-left: 5px;
+}
+.flag-se .star:after {
+  content: '\2605';
+  margin-left: 45px;
+}
+.flag-se .star:last-child:before {
+  content: '\2605';
+  margin-left: 6px;
+}
+.flag-se .star:last-child:after {
+  content: '\2605';
+  margin-left: 45px;
+}
